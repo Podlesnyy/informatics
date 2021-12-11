@@ -1,0 +1,1 @@
+print((lambda _, a, x: a.count(x))(int(input()), list(map(int, input().split())), int(input())))

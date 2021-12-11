@@ -1,0 +1,5 @@
+mstring=input()
+msubstr=input()
+msubstr2 = input()
+mstring=mstring.replace(msubstr,msubstr2)
+print(mstring)

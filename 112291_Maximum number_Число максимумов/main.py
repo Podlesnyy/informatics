@@ -1,0 +1,1 @@
+print(*(lambda _, a: (max(a), a.count(max(a))))(int(input()), list(map(int, input().split()))))
