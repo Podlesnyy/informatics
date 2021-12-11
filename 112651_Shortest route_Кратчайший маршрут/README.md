@@ -1,0 +1,51 @@
+Задача №112651. Кратчайший маршрут
+Принц Винсент получил карту дорог страны Лимония. Теперь ему требуется определить кратчайший маршрут из города A , где он находится, в город B , где его ждёт невеста. Помогите Винсенту – напишите программу, которая решает эту задачу.
+
+Входные данные
+В первой строке вводится количество городов N ( 1 ≤ N ≤ 1000 ). В следующих N строках записано по N чисел, разделённых пробелами – элементы весовой матрицы графа, который описывает схему дорог между городами: положительное число означает расстояние между городами, ноль говорит о том, что дороги нет. В следующей строке вводятся номера начальной и конечной точек (городов), A и B . Нумерация городов начинается с единицы.
+
+Выходные данные
+Программа должна вывести в первой строчке длину кратчайшего маршрута. Во второй строчке выводится последовательность городов, начиная с города A и заканчивая городом B , через которые нужно ехать принцу. Если дороги между заданными городами вообще нет, нужно вывести число 0.
+
+Примеры
+входные данные
+6
+0 2 4 0 0 0
+2 0 1 0 0 0
+4 1 0 2 6 0
+0 0 2 0 4 1
+0 0 6 4 0 1
+0 0 0 1 1 0
+3 5
+выходные данные
+4
+3 4 6 5 
+
+Связаться со мной можно по telegram: https://t.me/kto_kot
+Угостить меня кофе: https://www.tinkoff.ru/rm/podlesnyi.andrey1/3tyld34128 или https://paypal.me/podlesnyy
+
+Problem # 112651. Shortest route
+Prince Vincent received a road map for the country of Limonia. Now he needs to find the shortest route from city A, where he is, to city B, where his bride is waiting for him. Help Vincent - write a program that solves this problem.
+
+Input data
+The first line contains the number of cities N (1 ≤ N ≤ 1000). The next N lines contain N numbers, separated by spaces - the elements of the weight matrix of the graph that describes the scheme of roads between cities: a positive number means the distance between cities, zero means that there is no road. On the next line, enter the numbers of the starting and ending points (cities), A and B. Cities are numbered starting from one.
+
+Output
+The program should print the length of the shortest route in the first line. The second line displays a sequence of cities, starting with city A and ending with city B, through which the prince needs to travel. If there is no road between the given cities at all, you need to output the number 0.
+
+Examples of
+input data
+6
+0 2 4 0 0 0
+2 0 1 0 0 0
+4 1 0 2 6 0
+0 0 2 0 4 1
+0 0 6 4 0 1
+0 0 0 1 1 0
+3 5
+output
+4
+3 4 6 5
+
+You can contact me by telegram: https://t.me/kto_kot
+Buy me coffee: https://www.tinkoff.ru/rm/podlesnyi.andrey1/3tyld34128 or https://paypal.me/podlesnyy
